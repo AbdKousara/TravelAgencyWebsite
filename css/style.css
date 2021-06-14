@@ -24,9 +24,9 @@ body {
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(10rem); }
+    transform: translateX(100px); }
   80% {
-    transform: translateX(-1rem); }
+    transform: translateX(-10px); }
   100% {
     opacity: 1;
     transform: translate(0); } }
@@ -34,7 +34,7 @@ body {
 @keyframes moveInBottom {
   0% {
     opacity: 0;
-    transform: translateY(3rem); }
+    transform: translateY(30px); }
   100% {
     opacity: 1;
     transform: translate(0); } }
